@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zenvo</string>
+    <string name="widget_name">Zenvo Focus Timer</string>
+    <string name="widget_description">Start and control your focus sessions directly from your home screen. Tap to begin deep work.</string>
+</resources>

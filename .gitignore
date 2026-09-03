@@ -1,0 +1,179 @@
+# ============================================================
+# Android / Kotlin Project - Git Ignore
+# ============================================================
+
+# ------------------------------------------------------------
+# Android Studio / IntelliJ IDEA
+# ------------------------------------------------------------
+*.iml
+.idea/
+!.idea/.gitignore
+
+# Android Studio generated / user-specific files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# ------------------------------------------------------------
+# Gradle
+# ------------------------------------------------------------
+.gradle/
+build/
+*/build/
+
+# Gradle local configuration
+/local.properties
+
+# ------------------------------------------------------------
+# Android build / generated files
+# ------------------------------------------------------------
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated APKs / AABs
+*.apk
+*.aab
+*.apks
+*.aab.zip
+
+# Generated mapping / native symbols
+*.mapping
+*.symbols
+*.so
+
+# ------------------------------------------------------------
+# Kotlin
+# ------------------------------------------------------------
+.kotlin/
+.kotlin-daemon/
+
+# Kotlin compiler generated files
+*.kotlin_module
+
+# ------------------------------------------------------------
+# Java / JVM
+# ------------------------------------------------------------
+*.class
+
+# ------------------------------------------------------------
+# Android Studio / Emulator
+# ------------------------------------------------------------
+*.hprof
+
+# Emulator files
+.avd/
+*.avd
+*.lock
+
+# ------------------------------------------------------------
+# OS generated files
+# ------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# ------------------------------------------------------------
+# Temporary / backup files
+# ------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+*.log
+logs/
+
+# ------------------------------------------------------------
+# Environment / local configuration
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Local development configuration
+local.properties
+
+# ------------------------------------------------------------
+# Signing keys / certificates
+# IMPORTANT: NEVER publish these to a public repository
+# ------------------------------------------------------------
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Android signing configuration
+keystore.properties
+signing.properties
+
+# ------------------------------------------------------------
+# Google / Firebase sensitive configuration
+# ------------------------------------------------------------
+google-services.json
+
+# If you intentionally want to publish a sanitized example:
+# !app/google-services.json.example
+
+# Firebase App Distribution / Crashlytics local files
+firebase-debug.log
+
+# ------------------------------------------------------------
+# Service credentials / secrets
+# ------------------------------------------------------------
+secrets.properties
+secrets.gradle
+credentials.json
+service-account*.json
+*-service-account.json
+
+# Private API / authentication files
+*credentials*
+*secret*
+*secrets*
+
+# ------------------------------------------------------------
+# Generated documentation / reports
+# ------------------------------------------------------------
+reports/
+test-results/
+
+# ------------------------------------------------------------
+# Native build
+# ------------------------------------------------------------
+.cxx/
+.externalNativeBuild/
+
+# ------------------------------------------------------------
+# Fastlane
+# ------------------------------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Keep Fastlane configuration/source files tracked.
+# Do NOT ignore the entire fastlane/ directory.
+
+# ------------------------------------------------------------
+# Compose / Android generated files
+# ------------------------------------------------------------
+.navigation/

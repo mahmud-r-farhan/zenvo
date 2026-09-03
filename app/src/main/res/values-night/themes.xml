@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night variant — identical since Zenvo is always dark -->
+    <style name="Theme.Zenvo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorBackground">#FF0B0F1A</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#FF0B0F1A</item>
+    </style>
+</resources>
